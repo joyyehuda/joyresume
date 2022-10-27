@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+};
+
 @layer components {
     .hoverTransition {
-        @apply hover:text-gray-400 transition ease-in duration-200;
+        @apply hover:text-gray-400 transition ease-in duration-200 cursor-pointer;
     };
 
     .blogContent h1 {

@@ -1,4 +1,4 @@
-import { useState, Dispatch, SetStateAction } from 'react';
+import { useState, Dispatch, SetStateAction, useRef, useEffect } from 'react';
 import { MoonIcon, SunIcon } from '@heroicons/react/24/solid';
 import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/solid';
 

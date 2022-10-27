@@ -9,7 +9,7 @@ const About = () => {
             </div>
 
             <div className='text-left space-y-1'>
-                <h1 className='text-xl font-bold italic'>about me</h1>
+                <h1 className='text-xl font-bold'>about me 📚</h1>
                 <h1 className='text-2xl font-light italic'>"build, measure, learn"</h1>
                 <h1 className='text-2xl font-light italic'>"minimalistic"</h1>
                 <h1 className='text-2xl font-light italic'>"deep work"</h1>

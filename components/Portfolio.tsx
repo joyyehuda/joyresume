@@ -27,7 +27,7 @@ const Portfolio = ({ portfolios }: Props) => {
     return (
         <div id='portfolio' className='space-y-3'>
             <div className='text-center'>
-                <h1 className='text-xl font-bold italic'>portfolio</h1>
+                <h1 className='text-xl font-bold'>portfolio 🎨</h1>
                 <p>my personal projects</p>
             </div>
 

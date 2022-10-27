@@ -27,7 +27,7 @@ const Blog = ({ posts }: Props) => {
     return (
         <div id='blog' className='space-y-3'>
             <div className='text-center'>
-                <h1 className='text-xl font-bold italic'>blog</h1>
+                <h1 className='text-xl font-bold'>blog ✍️</h1>
                 <p>i mostly talk about startup, business, entrepreneurship, and books.</p>
             </div>
 

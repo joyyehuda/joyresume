@@ -14,8 +14,8 @@ const Navbar = ({ isDark, setIsDark }: Props) => {
         <div>
             <nav className='sticky border-b-2 border-black bg-white dark:bg-slate-900 dark:border-white'>
                 <div className='flex justify-between mx-auto container py-5 items-center transition-all px-2'>
-                    <span className='font-bold italic text-2xl'>
-                        <a href='/'>joy lodra</a>
+                    <span className='font-bold text-2xl'>
+                        <a href='/'>joy lodra 👨‍💻</a>
                     </span>
 
                     <ul className='hidden md:flex space-x-4'>

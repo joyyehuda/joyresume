@@ -41,7 +41,7 @@ const PostDetails = ({ post }: Props) => {
                 <Navbar isDark={isDark} setIsDark={setIsDark} />
 
                 <article className='container mx-auto px-2 py-10 space-y-5 transition-all'>
-                    <img src={post.blogImage.url || 'https://media.graphassets.com/cNtqk0JBRSigm3YqBsCA'} className='w-full h-40 md:h-60 lg:h-80 object-cover grayscale bg-gray-300 transition-all border-2 border-black' />
+                    <img src={post?.blogImage.url || 'https://media.graphassets.com/cNtqk0JBRSigm3YqBsCA'} className='w-full h-40 md:h-60 lg:h-80 object-cover grayscale bg-gray-300 transition-all border-2 border-black' />
                     <div>
                         <h1 className='text-3xl font-bold lowercase'>{post.title}</h1>
                         <p className='italic lowercase'>by {post.author.name} • {moment(post.createdAt).format('MMM DD, YYYY')}</p>

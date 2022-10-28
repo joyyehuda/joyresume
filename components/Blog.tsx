@@ -38,7 +38,7 @@ const Blog = ({ posts }: Props) => {
                     onClick={() => handleClick('left')} />
 
                 <div ref={rowRef} className='flex items-center space-x-3 overflow-x-scroll scrollbar-hide p-2'>
-                    {posts.map((post) => <Card post={post} />)}
+                    {posts.map((post: any) => <Card post={post} key={post.node.id} />)}
                 </div>
 
                 <ArrowRightCircleIcon className={`absolute top-0 bottom-0 right-2 z-10 m-auto 

@@ -38,7 +38,7 @@ const Portfolio = ({ portfolios }: Props) => {
                     onClick={() => handleClick('left')} />
 
                 <div ref={rowRef} className='flex items-center space-x-3 overflow-x-scroll scrollbar-hide p-2'>
-                    {portfolios.map((portfolio) => <PortfolioImage portfolio={portfolio} />)}
+                    {portfolios.map((portfolio: any) => <PortfolioImage portfolio={portfolio} key={portfolio.id} />)}
                 </div>
 
                 <ArrowRightCircleIcon className={`absolute top-0 bottom-0 right-2 z-10 m-auto 

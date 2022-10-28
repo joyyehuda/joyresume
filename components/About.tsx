@@ -56,6 +56,13 @@ const About = () => {
                         <div className='w-4/6 bg-black h-1.5 rounded-sm dark:bg-white'></div>
                     </div>
                 </div>
+                
+                <div className='flex-col space-y-2 text-right'>
+                    <h2 className='font-medium'>Wordpress</h2>
+                    <div className='w-full bg-white h-2 rounded-md border-2 border-black dark:border-white dark:bg-slate-900'>
+                        <div className='w-4/6 bg-black h-1.5 rounded-sm dark:bg-white'></div>
+                    </div>
+                </div>
             </div>
         </div >
     )

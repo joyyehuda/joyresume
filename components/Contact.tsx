@@ -3,7 +3,7 @@ import { SiGmail } from 'react-icons/si';
 
 const Contact = () => {
     return (
-        <div id='contact' className='space-y-3 p-10 border-2 border-black shadow-lg'>
+        <div id='contact' className='space-y-3 p-10 border-2 border-black shadow-lg dark:border-white'>
             <div className='text-center'>
                 <h1 className='text-xl font-bold'>contact 📱</h1>
                 <p>don't hesitate to reach me out. click one of the links below!</p>

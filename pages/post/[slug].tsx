@@ -77,8 +77,7 @@ export async function getStaticProps({ params }: Props) {
     return {
         props: {
             post: data,
-        },
-        revalidate: 10
+        }
     };
 };
 
@@ -88,6 +87,6 @@ export async function getStaticPaths() {
     const posts = await getPosts();
     return {
         paths: posts.map((post: any) => ({ params: { slug: post.node.slug } })),
-        fallback: 'blocking',
+        fallback: true,
     };
 }
